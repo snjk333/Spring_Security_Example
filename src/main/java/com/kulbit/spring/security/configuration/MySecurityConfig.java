@@ -37,5 +37,9 @@ public class MySecurityConfig {
                 .formLogin(Customizer.withDefaults());
         return http.build();
     }
+    @Bean
+    public UserDetailsManager userDetailsManager() {
+        return new JdbcUserDetailsManager(dataSource);
+    }
 
 }
