@@ -1,6 +1,5 @@
 package com.kulbit.spring.security.configuration;
 
-import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class MyWebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
